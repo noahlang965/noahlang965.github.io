@@ -1,0 +1,54 @@
+<div style="background-color: red;">
+    <!-- Your content here -->
+</div>
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.favorite {
+  background-color: red;
+  list-style-type: square;
+}
+
+nav {
+  background-color: gray;
+  color: purple;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: green;
+}
+
+main a[href="#top"] {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.colored-text {
+  background-color: yellow;
+  padding: 2px;
+}
+
+/* New code for changing text color to white */
+.box {
+  color: white; /* Set the text color to white */
+}
