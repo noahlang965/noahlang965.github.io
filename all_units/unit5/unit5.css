@@ -48,7 +48,7 @@ main a[href="#top"] {
   padding: 2px;
 }
 
-/* New code for changing text color to white */
+
 .box {
-  color: white; /* Set the text color to white */
+  color: white; 
 }
