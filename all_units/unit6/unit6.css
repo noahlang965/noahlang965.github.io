@@ -1,0 +1,25 @@
+/* style.css */
+.specialborder {
+	border-image: url('path/to/border_image.png') 30 round;
+	border-width: 30px;
+	border-style: solid;
+}
+
+#borderimg {
+	border-image: url('path/to/border_image.png') 30 round;
+	border-width: 30px;
+	border-style: solid;
+}
+
+/* Insert the "specialborder" class to the desired elements */
+main.specialborder {
+	border-image: url('path/to/border_image.png') 30 round;
+	border-width: 30px;
+	border-style: solid;
+}
+
+.image-height.specialborder {
+	border-image: url('path/to/border_image.png') 30 round;
+	border-width: 30px;
+	border-style: solid;
+}
