@@ -1,0 +1,58 @@
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transition: all 0;
+}
+
+.move-ball {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transition: all 1s ease;
+}
+
+.move-image {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.move-billy {
+  position: absolute;
+  top: 85%;
+  left: 125%;
+  transition: all 0.5s ease, transform 1s ease;
+}
+
+.move-billy:hover {
+  transform: scale(1);
+  left: 155%;
+}
+
+.move-tetris {
+  position: absolute;
+  top: 165%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.move-block {
+  position: absolute;
+  top: 185%;
+  left: -27.3%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  animation: slide-in 1s ease-in forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    left: -27.3%;
+  }
+  100% {
+    left: 27.3%;
+  }
+}
